@@ -25,9 +25,24 @@ function displayBooks() {
 
     const card = document.createElement("div")
 
-    card.innerHTML= `
-            <h3>${book.title}</h3>
-            
+     const title = document.createElement("h3")
+     title.textContent = book.title
+
+     const author = document.createElement("p")
+     author.textContent = `Author: ${book.author}`
+
+    const pages = document.createElement("p")
+     pages.textContent = `Pages: ${book.pages}`
+
+      const read = document.createElement("p");
+        read.textContent = `Read: ${book.read}` 
+
+        card.appendChild(title)
+        card.appendChild(author)
+        card.appendChild(pages)
+        card.appendChild(read)
+
+     bookContainer.appendChild(card)
     })
 }
 
