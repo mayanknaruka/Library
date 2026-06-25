@@ -1,5 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f4f1ea;
+}
+
+#new-book-btn {
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    background: #4a6fa5;
+    color: white;
+    border: none;
+}
+
 #book-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+#book-container>div {
+    background: white;
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    border-left: 5px solid #4a6fa5;
+    height: 250px;
+
+}
+
+button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background: #4a6fa5;
+    color: white;
+    border: none;
+}
+
+dialog {
+    padding: 20px;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
