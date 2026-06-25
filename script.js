@@ -105,4 +105,12 @@ bookForm.addEventListener("submit", (event) => {
     bookDialog.close();
 });
 
+const Hobbit = new Book("The Hobbit", "J.R.R. Tolkein", 295, true);
+const HP1 = new Book("Harry Potter", "JK ROWLING", 120, false);
+const F451 = new Book("Farenheit 451", "IDK", 100, true);
+
+myLibrary.push(Hobbit);
+myLibrary.push(HP1);
+myLibrary.push(F451);
+
 displayBooks();
