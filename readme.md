@@ -1,7 +1,7 @@
 # Library
 
-# live demo : 
- 
+# live demo : https://mayanknaruka.github.io/Library/
+
 A simple library application built with HTML, CSS, and JavaScript as part of The Odin Project.
 
 ## Features
